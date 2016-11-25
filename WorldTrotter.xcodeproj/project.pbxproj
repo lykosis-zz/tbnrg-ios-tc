@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		92145EAA1DE16747004A0B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92145EA91DE16747004A0B82 /* AppDelegate.swift */; };
-		92145EAC1DE16747004A0B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92145EAB1DE16747004A0B82 /* ViewController.swift */; };
 		92145EAF1DE16747004A0B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92145EAD1DE16747004A0B82 /* Main.storyboard */; };
 		92145EB11DE16747004A0B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92145EB01DE16747004A0B82 /* Assets.xcassets */; };
 		92145EB41DE16747004A0B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92145EB21DE16747004A0B82 /* LaunchScreen.storyboard */; };
+		92CE8DBB1DE64CC300E1A23F /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE8DBA1DE64CC300E1A23F /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		92145EA61DE16747004A0B82 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92145EA91DE16747004A0B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92145EAB1DE16747004A0B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92145EAE1DE16747004A0B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92145EB01DE16747004A0B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92145EB31DE16747004A0B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92145EB51DE16747004A0B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CE8DBA1DE64CC300E1A23F /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		92145EA81DE16747004A0B82 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				92CE8DBA1DE64CC300E1A23F /* ConversionViewController.swift */,
 				92145EA91DE16747004A0B82 /* AppDelegate.swift */,
-				92145EAB1DE16747004A0B82 /* ViewController.swift */,
 				92145EAD1DE16747004A0B82 /* Main.storyboard */,
 				92145EB01DE16747004A0B82 /* Assets.xcassets */,
 				92145EB21DE16747004A0B82 /* LaunchScreen.storyboard */,
@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					92145EA51DE16747004A0B82 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9JFB5T6QVL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92145EAC1DE16747004A0B82 /* ViewController.swift in Sources */,
+				92CE8DBB1DE64CC300E1A23F /* ConversionViewController.swift in Sources */,
 				92145EAA1DE16747004A0B82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JFB5T6QVL;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulfix.WorldTrotter;
@@ -270,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9JFB5T6QVL;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulfix.WorldTrotter;
@@ -297,6 +300,7 @@
 				92145EBA1DE16747004A0B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
